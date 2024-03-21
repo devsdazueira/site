@@ -1,18 +1,18 @@
 @charset "UTF-8";
 
 body {
-    background-image: linear-gradient(to right, rgb(204, 204, 204), rgb(194, 194, 194), rgb(255, 51, 51));
+    background-image: linear-gradient(to right, black, rgb(31, 31, 31), rgb(141, 17, 17)); 
 }
 
 main {
     position: relative;
     height: 97vh;
     width: 100%;
-    background-image: linear-gradient(to right, rgb(204, 204, 204), rgb(194, 194, 194), rgb(255, 51, 51));
+    background-image: linear-gradient(to right, black, rgb(31, 31, 31), rgb(141, 17, 17));
 }
 
 div#form {
-    background-color: white;
+    background-color: black;
 }
 
 section#login {
@@ -22,7 +22,7 @@ section#login {
     /* transform: translate(-50%, -50%); */
     overflow: hidden;
 
-    background-color: white;
+    background-color: black;
     width: 250px;
     height: 360px;
     border-radius: 15px;
@@ -33,13 +33,13 @@ section#login {
 }
 
 section#login > div#form {
-    background-color: white;
+    background-color: black;
     display: block;
     padding: 10px;
 }
 
 div {
-    background-color: white;
+    background-color: black;
 }
 
 div#form > img {
@@ -51,32 +51,35 @@ div#form > img {
 }
 
 div.campo > p {
-    background-color: white;
+    background-color: black;
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.9em;
     margin-bottom: 18px;
 }
 
 div.campo > p > select {
-    background-color: white;
+    background-color: black;
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.8em;
 }
 
 div.campo > label {
-    background-color: rgb(199, 199, 199);
+    background-color: rgb(80, 80, 80);
     display: none;
 }
 
 div.campo > i {
-    color: black;
+    color: white;
     font-size: 2em;
     width: 40px;
     padding: 5px;
 }
 
 div.campo > input {
-    background-color: rgb(199, 199, 199);
+    background-color: rgb(54, 54, 54);
+    color: white;
     font-size: 1em;
     width: calc(100% - 45px);
     /* transform: translateY(-12px); */
@@ -88,7 +91,7 @@ div.campo > input {
 }
 
 div.campo > input:hover {
-    background-color: rgb(161, 161, 161);
+    background-color: rgb(39, 39, 39);
 }
 
 form > input[type=submit] {
@@ -96,7 +99,7 @@ form > input[type=submit] {
     font-size: 1em;
     width: 100%;
     height: 40px;
-    background-color: rgb(129, 129, 129);
+    background-color: rgb(66, 66, 66);
     color: white;
     padding-top: 3px;
     margin-top: 3px;
@@ -106,7 +109,7 @@ form > input[type=submit] {
 }
 
 form > input[type=submit]:hover {
-    background-color: rgb(116, 116, 116);
+    background-color: rgb(49, 49, 49);
 }
 
 form > a.bottom {
@@ -116,11 +119,11 @@ form > a.bottom {
     font-size: 1em;
     width: 100%;
     height: 40px;
-    background-color: white;
-    color: gray;
+    background-color: black;
+    color: white;
     padding-top: 5px;
     margin-top: 5px;
-    border: 1px solid gray;
+    border: 1px solid white;
     border-radius: 5px;
     text-decoration: none;
     cursor: pointer;
