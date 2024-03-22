@@ -6,7 +6,7 @@ body {
 
 main {
     position: relative;
-    height: 95vh;
+    height: 93vh;
     width: 100%;
     background-image: linear-gradient(to right, rgb(215, 215, 215), rgb(194, 194, 194), rgb(255, 51, 51));
 }
