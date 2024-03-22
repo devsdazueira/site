@@ -1,14 +1,14 @@
 @charset "UTF-8";
 
 body {
-    background-image: linear-gradient(to right, black, rgb(31, 31, 31), rgb(141, 17, 17)); 
+    background-image: linear-gradient(to right, rgb(8, 8, 8), rgb(21, 21, 21), rgb(141, 17, 17)); 
 }
 
 main {
     position: relative;
-    height: 97vh;
+    height: 95vh;
     width: 100%;
-    background-image: linear-gradient(to right, black, rgb(31, 31, 31), rgb(141, 17, 17));
+    background-image: linear-gradient(to right, rgb(8, 8, 8), rgb(21, 21, 21), rgb(141, 17, 17));
 }
 
 div#form {
@@ -46,8 +46,8 @@ div#form > img {
     display: block;
     margin: auto;
     border-radius: 0%;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-bottom: 22px;
 }
 
 div.campo > p {
