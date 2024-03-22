@@ -24,7 +24,7 @@
 @media screen and (min-width: 768px) and (max-width: 992px) { /*TABLET*/
     section#login {
         width: 280px;
-        height: 280px;
+        height: 360px;
     }
 
     section#login > div#form {
