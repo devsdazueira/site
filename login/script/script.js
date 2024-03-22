@@ -9,9 +9,18 @@ function mudarTema() {
 
 function mudarLogo() {
     var trocarLogo = document.getElementById('mudarPNG')
-    if (trocarLogo.src.endsWith('NSA.png')) {
+    if (trocarLogo.src.endsWith('NSA-claro.png')) {
         trocarLogo.src = 'NSA-escuro.png';
     } else {
-        trocarLogo.src = 'NSA.png';
+        trocarLogo.src = 'NSA-claro.png';
+    }
+}
+
+function themeEscuro() {
+    var mudarTema = document.getElementById('tema_escuro')
+    if (mudarTema.src.endsWith('imagens/icons/tema_escuro.png')) {
+        mudarTema.src = 'imagens/icons/tema-claro.png';
+    } else {
+        mudarTema.src = 'imagens/icons/tema_escuro.png';
     }
 }
