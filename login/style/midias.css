@@ -12,7 +12,7 @@
 @media screen and (max-width: 600px) {
     section#login {
         width: 250px;
-        height: 350px;
+        height: 370px;
     }
 
     section#login > div#form {
@@ -24,7 +24,7 @@
 @media screen and (min-width: 768px) and (max-width: 992px) { /*TABLET*/
     section#login {
         width: 280px;
-        height: 360px;
+        height: 370px;
     }
 
     section#login > div#form {
@@ -36,7 +36,7 @@
 @media screen and (min-width: 992px) {  /* DESKTOP */ 
     section#login {
         width: 350px;
-        height: 350px;
+        height: 370px;
     }
 
     section#login > div#form {
