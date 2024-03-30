@@ -91,7 +91,6 @@ div.campo > input:hover {
     background-color: rgb(161, 161, 161);
 }
 
-/*
 form > input[type=submit] {
     display: block;
     font-size: 1em;
@@ -109,8 +108,8 @@ form > input[type=submit] {
 form > input[type=submit]:hover {
     background-color: rgb(116, 116, 116);
 }
-*/
 
+/*
 form > a.seila {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -131,6 +130,7 @@ form > a.seila {
 form > a.seila:hover {
     background-color: rgb(116, 116, 116);
 }
+*/
 
 form > a.bottom {
     display: block;
