@@ -9,10 +9,10 @@ function mudarTema() {
 
 function mudarLogo() {
     var trocarLogo = document.getElementById('mudarPNG')
-    if (trocarLogo.src.endsWith('NSA-claro.png')) {
-        trocarLogo.src = 'NSA-escuro.png';
+    if (trocarLogo.src.endsWith('NEW-branco.png')) {
+        trocarLogo.src = 'NEW-preto.png';
     } else {
-        trocarLogo.src = 'NSA-claro.png';
+        trocarLogo.src = 'NEW-branco.png';
     }
 }
 
