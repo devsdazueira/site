@@ -6,26 +6,38 @@
 }
 
 header {
-    display: block;
     background-color: #C00000;
+    height: 75px;
 }
 
-menu {
+header > i#menu {
+    display: block;
+    color: white;
+    position: relative;
+    max-width: 38px;
+    left: 315px;
+    bottom: 43px;
+    cursor: pointer;
+}
+
+header > menu {
+    display: none;
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
-    left: 1200px;
-    bottom: 57px;
-    display: block;
     background-color: #C00000;
+    max-width: 110px;
+    max-height: 150px;
+    left: 305px;
+    bottom: 43px;
 }
-
-menu > a {
+ 
+header > menu > a {
     margin: 2.2px;
     color: white;
     text-decoration: none;
 }
 
-menu > a:hover {
+header > a:hover {
     color: rgb(207, 207, 207);
     text-decoration: underline;
 }
