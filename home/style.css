@@ -15,7 +15,7 @@ header > i#menu {
     color: white;
     position: relative;
     max-width: 38px;
-    left: 307px;
+    left: 300px;
     bottom: 43px;
     cursor: pointer;
 }
@@ -27,7 +27,7 @@ header > menu {
     background-color: #C00000;
     max-width: 110px;
     max-height: 150px;
-    left: 270px;
+    left: 267.5px;
     bottom: 43px;
 }
  
