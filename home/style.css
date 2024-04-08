@@ -10,6 +10,10 @@ header {
     height: 75px;
 }
 
+header > img {
+    padding: 3px;
+}
+
 header > i#usuario {
     display: block;
     color: white;
@@ -25,7 +29,7 @@ header > i#menu {
     color: white;
     position: relative;
     max-width: 38px;
-    left: 300px;
+    left: 295px;
     bottom: 43px;
     cursor: pointer;
 }
@@ -37,7 +41,7 @@ header > menu {
     background-color: #ad0000;
     max-width: 110px;
     max-height: 150px;
-    left: 267.5px;
+    left: 264px;
     bottom: 60px;
 }
  
