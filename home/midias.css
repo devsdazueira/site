@@ -5,16 +5,16 @@
         display: none;
     }
 
-    header > menu {
+    header > menu#itens {
         display: block;
     }
 
-    header > menu {
+    header > menu#itens {
         display: inline-block;
         position: relative;
         max-width: 500px;
         left: 280px;
         bottom: 43px;
-        border: none;
+        background-color: #C00000;
     }
 }
